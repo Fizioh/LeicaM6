@@ -54,6 +54,7 @@ nav {
     h2 {
         grid-column: 2/3;
         align-self: flex-end;
+       
     }
     img {
         grid-row: 2/3;
@@ -62,11 +63,12 @@ nav {
         object-fit: cover;
         align-self:center;
         justify-self: center;
+        opacity: 1;
+        animation: fadeIn ease 5s;
     }
     .info {
         grid-column: 4/5;
-        grid-row: 2/4;
-        
+        grid-row: 3/4;
     }
     h3 {
         padding-bottom: 3rem;
@@ -74,39 +76,7 @@ nav {
 
 }
 
-  blockquote {
-    font-size: 1.5rem;
-  }
-  cite {
-    display: block;
-    text-align: right;
-    font-family: Verdana, Arial, sans-serif;
-    margin-top: 1rem;
-    font-size: .9rem;
-    color: #aaa;
-    font-style: normal;
-  }
-  blockquote q {
-    font-family: Georgia, serif;
-    font-style: italic;
-    letter-spacing: .1rem;
-  }
-  blockquote q span { 
-    will-change: opacity, filter;
-    opacity: 0;
-    filter: blur(0px);
-  }
-  q {
-    quotes: "“" "”" "‘" "’";
-  }
-  q:before {
-      content: open-quote;
-      margin-right: .8rem;
-  }
-  q:after {
-    content: close-quote;
-  }
-  q:before, q:after {
-    color: #ccc;
-    font-size: 4rem;
-  }
+@keyframes fadeIn {
+    0% {opacity:0;}
+    100% {opacity:1;}
+    }
