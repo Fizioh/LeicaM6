@@ -1,3 +1,4 @@
+@charset "UTF-8";
 html {
   font-size: 62.5%;
 }
@@ -161,6 +162,51 @@ nav .order {
 
 .showcase h3 {
   padding-bottom: 3rem;
+}
+
+blockquote {
+  font-size: 3rem;
+}
+
+cite {
+  display: block;
+  text-align: right;
+  font-family: Verdana, Arial, sans-serif;
+  margin-top: 1rem;
+  font-size: .9rem;
+  color: #aaa;
+  font-style: normal;
+}
+
+blockquote q {
+  font-family: Georgia, serif;
+  font-style: italic;
+  letter-spacing: .1rem;
+}
+
+blockquote q span {
+  will-change: opacity, filter;
+  opacity: 0;
+  -webkit-filter: blur(0px);
+          filter: blur(0px);
+}
+
+q {
+  quotes: "“" "”" "‘" "’";
+}
+
+q:before {
+  content: open-quote;
+  margin-right: .8rem;
+}
+
+q:after {
+  content: close-quote;
+}
+
+q:before, q:after {
+  color: #ccc;
+  font-size: 4rem;
 }
 
 .features-container {
