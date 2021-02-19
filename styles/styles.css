@@ -154,6 +154,7 @@ nav .order {
 }
 
 .showcase .info {
+  margin-top: -75px;
   -ms-grid-column: 4;
   -ms-grid-column-span: 1;
   grid-column: 4/5;
