@@ -58,14 +58,15 @@ nav {
     img {
         grid-row: 2/3;
         grid-column: 3/4;
-        height: 150%;
+        height: 120%;
         object-fit: cover;
         align-self:center;
         justify-self: center;
     }
     .info {
         grid-column: 4/5;
-        grid-row: 3/4;
+        grid-row: 2/4;
+        
     }
     h3 {
         padding-bottom: 3rem;
@@ -74,7 +75,7 @@ nav {
 }
 
   blockquote {
-    font-size: 3rem;
+    font-size: 1.5rem;
   }
   cite {
     display: block;

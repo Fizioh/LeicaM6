@@ -141,7 +141,7 @@ nav .order {
   -ms-grid-column: 3;
   -ms-grid-column-span: 1;
   grid-column: 3/4;
-  height: 150%;
+  height: 120%;
   -o-object-fit: cover;
      object-fit: cover;
   -ms-flex-item-align: center;
@@ -155,9 +155,9 @@ nav .order {
   -ms-grid-column: 4;
   -ms-grid-column-span: 1;
   grid-column: 4/5;
-  -ms-grid-row: 3;
-  -ms-grid-row-span: 1;
-  grid-row: 3/4;
+  -ms-grid-row: 2;
+  -ms-grid-row-span: 2;
+  grid-row: 2/4;
 }
 
 .showcase h3 {
@@ -165,7 +165,7 @@ nav .order {
 }
 
 blockquote {
-  font-size: 3rem;
+  font-size: 1.5rem;
 }
 
 cite {
